@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#EEF3F9;
+    width: 100vw;
+    min-height:100vh;
+}
+header{
+    display: flex;
+    min-height: 100vh;
+}
+/* nav2 */
+.navigation-var2{
+width:3%;
+background-color:#fff;
+height: 130vh;
+}
+.navigation-var2 ul li{
+    height:60px;
+    border-bottom:1px solid rgb(230, 226, 226);  
+    width:100%;
+    text-align: center;
+}
+.navigation-var2 ul li i{
+    font-size:23px;
+    margin-top:18px;
+}
+
+/* nav1 */
+.logo img{
+    width: 100px;
+    position: relative;
+    top:3px;
+}
+.search-bar{
+    width: 350px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    padding:5px 5px 5px 5px;
+    text-align: center;
+}
+.field{
+    width:93%;
+    background-color: transparent;
+    border:none;
+    outline:none;
+}
+.icon{
+   margin-left: 3px;
+   color:rgb(133, 116, 116);
+   margin-top: 2px;
+}
+.icon2{
+    position:relative;
+    top:1px;
+    font-size: 13px;
+    color:rgb(90, 81, 81);
+}
+.nav-image{
+    width:40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.nav-image img{
+    width:100%;
+    height: auto;
+}
+.navigation-bar{
+    display: flex;
+    width:95%;
+    border-bottom:2px solid rgb(230, 226, 226); 
+    justify-content: space-between;
+    align-items: center;
+    padding:0 30px 0 10px;
+    height: 60px;
+    margin-left: 1%;
+    
+}
+.nav-item1{
+    display: flex;
+    align-items: center;
+}
+.nav-item1 div{
+    margin-right: 10px;
+}
+.nav-menu{
+    width:25%;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+
+/* main container */
+
+/* menu section */
+.main-container{
+    display: grid;
+    grid-template-columns:25% 55% 20% ;
+    grid-template-rows:70vh;
+    width:93%;
+    
+    gap:15px;
+    position: absolute;
+    left:4%;
+    top:75px;
+  
+    
+   
+}
+.menu-section{
+    display: grid;
+    grid-template-rows:repeat(11,1fr);
+    grid-template-columns: 1fr;
+    padding:10px 10px 0 10px;
+    background-color:#fff;
+}
+.main-container-child-list{
+    height: 100%;
+    border-bottom: 2px solid #EEF3F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.main-container-child-list2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.main-container-child-list p,.main-container-child-list2 p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.main-container-child-list i,.main-container-child-list2 i{
+    padding-right: 10px;
+}
+.main-banner-section{
+   display:grid;
+   grid-template-columns:repeat(3,1fr);
+   grid-template-rows: repeat(3,1fr);
+   gap:10px;
+   height: 100%;
+}
+.main-banner-section .image1{
+    grid-row:1/3;
+    grid-column: 1/4;
+    
+}
+.images img{
+    width:100%;
+    height: auto;
+}
+.main-banner-section .images{
+    background-color: greenyellow;
+    overflow: hidden;
+}
+.main-product-section{
+    display: grid;
+    grid-template-rows: 30px 1fr 30px 1fr;
+    grid-auto-columns: 1fr;
+    row-gap: 10px;
+}
+.side-products{
+    overflow: hidden;
+}
+.side-products img{
+    width:100%;
+    height: auto;
+}
+.border{
+    width:95%;
+    height: 2px;
+    background-color: rgb(219, 219, 219);;
+    position: absolute;
+    margin-left: 4%;
+    margin-top:-21%;
+}
+/* Showcase header */
+.showcase-header{
+    display:flex;
+    position:absolute;
+    margin-left:4%;
+    margin-top:-20%;
+    align-items: center;
+    justify-content: space-between;
+    width:95%;
+    padding-left:5px;
+}
+.showcase-header-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 89%;
+    border-left:2px solid rgb(219, 219, 219);
+    padding-left: 15px;
+}
+.showcase-header-container h4{
+    color:red;
+}
+.showcase-content{
+    margin-left:4%;
+    width:94%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: 30vh;
+    grid-template-rows: 100%;
+    gap:10px;
+    margin-top:-17%;
+}
+.products{
+    background-color: white;
+    overflow: hidden;
+
+}
+.products img{
+    width:100%;
+    height: 100%;
+}
+.border2{
+    width:94%;
+    height: 2px;
+    background-color: rgb(219, 219, 219);;
+    position: absolute;
+    margin-left: 4%;
+    margin-top:1%;
+    
+}
